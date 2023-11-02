@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#background{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+}
+
+.container .nav a{
+    position: relative;
+    z-index: 2;
+    color: darkcyan;
+    font-size: 40px;
+    text-decoration: none;
+    display: inline;
+}
+
+.container .nav {
+    display: flex;
+}
+
+.navbar-right{
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.navbar{
+    margin: 20px;
+    margin-top: 20px;
+}
+
+#container2 img{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
